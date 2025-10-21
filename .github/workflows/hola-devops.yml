@@ -4,9 +4,9 @@ name: Hola DevOps
 # Evento que activa el workflow
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 # Jobs que se ejecutarán
 jobs:
